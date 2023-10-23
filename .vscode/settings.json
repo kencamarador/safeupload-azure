@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/75e6cb76-6906-499c-aab2-9927f9bc83e1/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/appblob",
+    "appService.deploySubpath": "."
+}
