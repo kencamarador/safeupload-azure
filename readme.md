@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Develop a web-based platform that enables users to safely upload files to Azure Blob Storage. Upon successful upload, the system will generate a distinctive, time-limited URL, which ensures that access to the uploaded file is restricted to authorized users possessing the link for a specified period.
+Develop a web-based Node.js application that allows secure and reliable file uploads to Azure Blob Storage.
 
 Skill Utilization:
 Utilizing Node.js development skills.
@@ -10,10 +10,10 @@ Deployment:
 Learning how to deploy Node.js applications to Azure Web Apps.
 
 Azure Storage:
-Understanding Azure accounts, containers, and blob storage.
+Using Terraform to create Azure resource groups, containers, and blob storage, while gaining an understanding of Azure account structures and their relationship with containers and blob storage.
 
 Integration:
-Integrating Azure Storage features into a Node.js application.
+Integrating Azure Storage SDK features into a Node.js application.
 
 Secure Key Management:
 Safeguarding sensitive keys in Azure Key Vault.
