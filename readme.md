@@ -3,7 +3,7 @@
 
 Develop a web-based Node.js application that allows secure and reliable file uploads to Azure Blob Storage.
 
-![Image Alt Text](../Images/safeupload.png)
+![Image Alt Text](./Images/safeupload.png)
 
 ## Purpose of the Project
 
