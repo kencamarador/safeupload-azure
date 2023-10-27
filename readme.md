@@ -11,7 +11,7 @@ The purpose of this project is to gain a deeper understanding of Azure storage, 
 
 * Deployment of a Node.js application to Azure Web Apps.
 
-* Implementation of Terraform for the creation of Azure storage resources.
+* The use of Infrastructure-as-Code (Terraform) for the creation of Azure storage resources.
 
 * Effective utilization of Azure Storage SDK within my Node.js application.
 
