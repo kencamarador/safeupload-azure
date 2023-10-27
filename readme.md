@@ -3,6 +3,8 @@
 
 Develop a web-based Node.js application that allows secure and reliable file uploads to Azure Blob Storage.
 
+## Purpose of the Project
+
 Skill Utilization:
 Utilizing Node.js development skills.
 
