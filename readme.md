@@ -7,29 +7,17 @@ Develop a web-based Node.js application that allows secure and reliable file upl
 
 ## Purpose of the Project
 
-Skill Utilization:
-Utilizing Node.js development skills.
+The purpose of this project is to gain a deeper understanding of Azure storage, encompassing containers and blob storage, and to seamlessly integrate Azure Storage SDK into my Node.js application. This project incorporates the following key achievements:
 
-Deployment:
-Learning how to deploy Node.js applications to Azure Web Apps.
+* Deployment of a Node.js application to Azure Web Apps.
 
-Azure Storage:
-Using Terraform to create Azure resource groups, containers, and blob storage, while gaining an understanding of Azure account structures and their relationship with containers and blob storage.
+* Implementation of Terraform for the creation of Azure storage resources.
 
-Integration:
-Integrating Azure Storage SDK features into a Node.js application.
+* Effective utilization of Azure Storage SDK within my Node.js application.
 
-Secure Key Management:
-Safeguarding sensitive keys in Azure Key Vault.
-Retrieving keys from the vault without hard-coding them.
+* Integration of Azure Key Vault, encompassing the comprehension of roles and policies, for enhanced security. This approach ensures that sensitive information is not hard-coded within the codebase, thereby eliminating the need for .env files.
 
-Monitoring:
-Setting up monitoring for application reliability.
-Tracking file upload progress.
-Monitoring website traffic.
-
-Automated Cleanup:
-Using Azure Functions to remove expired files automatically.
+* Implementation of Azure Monitor services for proactive monitoring, ensuring the reliability and performance of the application.
 
 
 ## Implementation Plan
@@ -44,6 +32,7 @@ This project consisted of the following services
 ![Azure](https://img.shields.io/badge/Azure-Storage-blue)
 ![Azure](https://img.shields.io/badge/Azure-Web_Apps-blue)
 ![Azure](https://img.shields.io/badge/Azure-KeyVault-blue)
+<br>
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -59,7 +48,7 @@ This project consisted of the following services
 
 These steps outline the general approach I took to complete this project. While not providing an in-depth look into each step, they serve as a valuable starting point for anyone looking to initiate a similar project.
 
-### Step 1: Creating an Azure Automation Account
+### Step 1: 
 
 
 
