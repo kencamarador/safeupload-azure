@@ -51,19 +51,19 @@ app.post('/upload', upload.single('file'), async (req, res) => {
 
   try {
     const containerName = (await secretClient.getSecret(containerNameSecretName)).value;
-    const blobName = req.file.originalname;
-    const blobStream = blobService.createWriteStreamToBlockBlob(containerName, blobName);
+    const blobName = req.file.originalname + new Date()
+    const blobUpload = blobService.createWriteStreamToBlockBlob(containerName, blobName);
 
-    blobStream.on('error', (error) => {
+    blobUpload.on('error', (error) => {
       console.error(error);
       res.status(500).send('Error uploading the file to Azure Blob Storage');
     });
 
-    blobStream.on('finish', () => {
+    blobUpload.on('finish', () => {
       res.send('File uploaded successfully to Azure Blob Storage');
     });
 
-    blobStream.end(req.file.buffer);
+    blobUpload.end(req.file.buffer);
   } catch (error) {
     console.error("Error retrieving container name from Azure Key Vault:", error);
     res.status(500).send('Error retrieving container name from Azure Key Vault');
